@@ -6,6 +6,9 @@
 import os
 import time
 
+# Run jetson_clocks to set the clocks to maximum performance
+os.system('sudo jetson_clocks')
+
 start_time = time.time()
 record_time = 4
 end_time = start_time + 10 * 60
